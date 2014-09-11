@@ -1,0 +1,7 @@
+{
+  "name": "learning-requirejs",
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "require-cs": "~0.5.0"
+  }
+}

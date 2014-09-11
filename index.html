@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Centered Surfaces</title>
+    <script type="text/javascript" src="/bower_components/requirejs/require.js"></script>
+    <script type="text/javascript">
+      require.config({
+        baseUrl: '/app/',
+        packages: [
+          {
+            name: 'cs',
+            location: '/bower_components/require-cs',
+            main: 'cs'
+          }, {
+            name: 'coffee-script',
+            location: '/bower_components/coffeescript',
+            main: 'extras/coffee-script'
+          }
+        ]
+      });
+      require(['cs!main']);
+    </script>
+  </head>
+  <body></body>
+</html>
